@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 20px 100px;
+    height: 30vh;
+    background-color: #D7D7D7;
+}
+
+section {
+    padding: 20px 100px;
+}
+
+.logo {
+    text-align: center;
+
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.nav {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.video {
+     padding: 0;
+    text-align: center;
+}
+
+video {
+    height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.map{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.map h2{
+    margin-bottom: 20px;
+}
+.map iframe{
+    width: 100%;
+}
+footer{
+    padding: 20px 100px;
+    text-align: center;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+form  .in{
+  padding-left: 50px;
+  padding-top: 20px;
+  
+}
+
+legend{
+    font-size: 20px;
+    color: green;
+}
+
+button{
+    font-size: 20px;
+    margin-right: 10px;
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+ 
